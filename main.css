@@ -33,10 +33,14 @@ main {
 
   /* Right div */
   #right {
-    background-image: url(assets/bailey-zindel-396398-unsplash.jpg);
+    display: flex;
     float: right;
     width: 50%;
     min-height: calc(100vh - 4rem);
+    background: url(assets/bailey-zindel-396398-unsplash.jpg) center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Clearfixes */
@@ -93,10 +97,108 @@ main {
 /*================================================
   RIGHT DIV CONTENT  
 ================================================*/
+/* Right content div */
+#right-content {
+  background-color: #FFF;
+  width: 28.814rem;
+  height: 28.7988rem;
+  border-radius: 0.9375rem;
+}
 
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 22.4109rem;
+  margin: 3.1998rem 3.2015rem 0;
+}
+
+/* Email and password inputs */
+.size {
+  display: block;
+  background-color: #F4F3F5;
+  width: 22.4109rem;
+  height: 2.6665rem;
+  margin: 0 3.2015rem;
+  border: 0;
+  padding-left: 1.2806rem;
+}
+
+.size:hover {
+  border-bottom: 0.125rem;
+  border-bottom-style: solid;
+  border-bottom-color: #6200ea;
+}
+
+#email-input {
+  margin-top: 1.5999rem;
+  margin-bottom: 0.7999rem;
+}
+
+/* Buttons */
+/* Button display property: Block. Width and left-right margin */
+.block-button {
+  display: block;
+  width: 22.4109rem;
+  margin: 0 3.2015rem;
+}
+
+/* Sing up and Log in buttons shape */
+.shape {
+  height: 2.6665rem;
+  border-radius: 1.5rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+}
+
+/* Forget password button */
+#for-button {
+  background-color: #FFF;
+  height: 0.7999rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 0;
+  text-align: right;
+  margin-top: 0.5333rem;
+  letter-spacing: 0.15rem;
+  color: #6200EA;
+}
+
+#for-button:hover {
+  color: #FF0000;
+}
+
+/* Sign up button */
+#sig-button {
+  margin-top: 1.5999rem;
+  border: 0.125rem solid #6200EA;
+  background-color: #6200EA;
+  color: #FFF;
+}
+
+#sig-button:hover {
+  background-color: #FFF;
+  color: #6200EA;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Log in button */
+#log-button {
+  margin-top: 0.7999rem;
+  border: 0.125rem solid #6200EA;
+  background-color: #FFF;
+  color: #6200EA;
+}
+
+#log-button:hover {
+  background-color: #6200EA;
+  color: #FFF;
+  transition: all 0.5s ease-in-out;
+}
 
 /*================================================
-  FOOTER STYLES  
+  FOOTER STYLES
 ================================================*/
 footer {
   background-color: #211138;
