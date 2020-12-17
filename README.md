@@ -4,6 +4,6 @@
 
 Puedes ver el sitio web terminado aquí:
 
-https://romanpinelo.github.io/
+https://romanpinelo.github.io/registro-aplicacion-web/
 
 Página de registro a una aplicación web.
