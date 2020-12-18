@@ -141,6 +141,7 @@ h1 {
   display: block;
   width: 22.4109rem;
   margin: 0 3.2015rem;
+  cursor: pointer;
 }
 
 /* Sing up and Log in buttons shape */
